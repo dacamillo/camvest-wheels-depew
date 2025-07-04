@@ -46,7 +46,7 @@ const HeroSection = () => {
               </Button>
             </a>
             <a href="https://calendly.com/camvest-auto-sales" target="_blank" rel="noopener noreferrer">
-              <Button size="lg" variant="outline" className="text-lg px-10 py-5 h-auto font-bold border-2 border-white text-white hover:bg-white hover:text-primary">
+              <Button size="lg" className="bg-primary hover:bg-primary/90 text-white text-lg px-10 py-5 h-auto font-bold">
                 Schedule Test Drive
               </Button>
             </a>
