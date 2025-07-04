@@ -14,11 +14,11 @@ const WhyChooseUs = () => {
       customerBenefit: {
         title: "What This Means for You",
         content: [
-          "💰 You'll never pay more than the sticker price - no surprise fees at closing",
-          "📋 All costs are clearly listed upfront so you can budget confidently", 
-          "🤝 No high-pressure tactics or bait-and-switch pricing games",
-          "✅ Compare our prices easily - we're confident they're fair and competitive",
-          "💡 Save time and stress by knowing exactly what you'll pay before you visit"
+          "You'll never pay more than the advertised price - no surprise fees at closing",
+          "All costs are clearly listed upfront so you can budget confidently", 
+          "No high-pressure tactics or bait-and-switch pricing strategies",
+          "Compare our prices easily - we're confident they're fair and competitive",
+          "Save time and stress by knowing exactly what you'll pay before you visit"
         ]
       }
     },
@@ -30,11 +30,11 @@ const WhyChooseUs = () => {
       customerBenefit: {
         title: "Why This Matters to You",
         content: [
-          "🏆 You're buying from proven experts who know cars inside and out",
-          "🛡️ A+ BBB rating means we resolve issues fairly and professionally",
-          "🏠 We're your neighbors - our reputation depends on treating you right",
-          "📞 25 years means we'll still be here when you need service or support",
-          "🔍 We know which vehicles are reliable and which ones to avoid"
+          "You're buying from proven automotive experts with extensive vehicle knowledge",
+          "Our A+ BBB rating demonstrates our commitment to resolving issues fairly and professionally",
+          "As a local business, our reputation depends on treating customers with integrity",
+          "25 years of operation means we'll be here to support you long after your purchase",
+          "Our experience helps us identify reliable vehicles and steer you away from problem cars"
         ]
       }
     },
@@ -46,11 +46,11 @@ const WhyChooseUs = () => {
       customerBenefit: {
         title: "How We Take Care of You",
         content: [
-          "👥 Real people answer your calls - no phone trees or outsourced support",
-          "⏰ We take time to understand your needs, not rush you into a sale",
-          "🎯 Get personalized vehicle recommendations based on your lifestyle and budget",
-          "🚗 Test drive vehicles without pressure or time limits",
-          "🤝 Ongoing support after your purchase - we want you happy long-term"
+          "Real people answer your calls - no automated phone systems or outsourced support",
+          "We take time to understand your specific needs rather than rushing you into a sale",
+          "Receive personalized vehicle recommendations based on your lifestyle and budget",
+          "Test drive vehicles without pressure or artificial time constraints",
+          "Ongoing support after your purchase - we're invested in your long-term satisfaction"
         ]
       }
     }
@@ -87,25 +87,28 @@ const WhyChooseUs = () => {
                   </div>
                 </DialogTrigger>
                 
-                <DialogContent className="sm:max-w-md">
+                <DialogContent className="sm:max-w-lg">
                   <DialogHeader>
-                    <DialogTitle className="flex items-center space-x-2">
-                      <IconComponent className="h-5 w-5 text-primary" />
+                    <DialogTitle className="flex items-center space-x-3 text-xl">
+                      <div className="w-8 h-8 bg-primary/10 rounded-full flex items-center justify-center">
+                        <IconComponent className="h-4 w-4 text-primary" />
+                      </div>
                       <span>{feature.customerBenefit.title}</span>
                     </DialogTitle>
                   </DialogHeader>
-                  <div className="space-y-3">
+                  <div className="space-y-4 mt-6">
                     {feature.customerBenefit.content.map((benefit, benefitIndex) => (
-                      <div key={benefitIndex} className="flex items-start space-x-2">
-                        <span className="text-sm leading-relaxed">{benefit}</span>
+                      <div key={benefitIndex} className="flex items-start space-x-3">
+                        <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
+                        <p className="text-foreground leading-relaxed">{benefit}</p>
                       </div>
                     ))}
                   </div>
-                  <div className="mt-6 pt-4 border-t border-border">
-                    <p className="text-sm text-muted-foreground text-center">
-                      Ready to experience the difference? Call us at{' '}
-                      <a href="tel:+17166831234" className="text-primary font-semibold hover:underline">
-                        (716) 683-1234
+                  <div className="mt-8 pt-6 border-t border-border bg-secondary/50 -mx-6 px-6 -mb-6 pb-6">
+                    <p className="text-center text-foreground">
+                      <span className="block text-sm text-muted-foreground mb-2">Ready to experience the difference?</span>
+                      <a href="tel:+17166831234" className="text-primary font-semibold hover:underline text-lg">
+                        Call (716) 683-1234
                       </a>
                     </p>
                   </div>
