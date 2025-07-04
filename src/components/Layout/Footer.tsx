@@ -51,17 +51,32 @@ const Footer = () => {
                   About Us
                 </Link>
               </li>
+              <li>
+                <Link to="/contact" className="hover:opacity-80 transition-opacity">
+                  Contact Us
+                </Link>
+              </li>
+              <li>
+                <a href="https://calendly.com/camvest-auto-sales" target="_blank" rel="noopener noreferrer" className="hover:opacity-80 transition-opacity">
+                  Schedule Test Drive
+                </a>
+              </li>
             </ul>
           </div>
 
           {/* Business Hours */}
           <div>
             <h4 className="text-lg font-semibold mb-4">Business Hours</h4>
-            <div className="space-y-1 text-sm opacity-90">
-              <div>Monday - Friday: 9:00 AM - 7:00 PM</div>
-              <div>Saturday: 9:00 AM - 6:00 PM</div>
-              <div>Sunday: 11:00 AM - 5:00 PM</div>
-            </div>
+            <a href="https://calendly.com/camvest-auto-sales" target="_blank" rel="noopener noreferrer" className="block hover:opacity-80 transition-opacity">
+              <div className="space-y-1 text-sm opacity-90">
+                <div>Monday - Friday: 9:00 AM - 7:00 PM</div>
+                <div>Saturday: 9:00 AM - 6:00 PM</div>
+                <div>Sunday: 11:00 AM - 5:00 PM</div>
+              </div>
+              <div className="mt-2 text-xs text-primary-foreground/80">
+                Click to schedule test drive →
+              </div>
+            </a>
           </div>
         </div>
 
