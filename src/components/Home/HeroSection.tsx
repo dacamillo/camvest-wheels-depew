@@ -33,16 +33,21 @@ const HeroSection = () => {
             Find your perfect car today with financing options available for all credit situations.
           </p>
 
-          <div className="flex flex-col sm:flex-row gap-6 mb-12">
+          <div className="flex flex-col lg:flex-row gap-4 mb-12">
             <Link to="/inventory">
               <Button size="lg" className="btn-automotive text-lg px-10 py-5 h-auto font-bold">
                 View Our Inventory
               </Button>
             </Link>
             <a href="tel:+17165781787">
-              <Button size="lg" variant="outline" className="text-lg px-10 py-5 h-auto font-bold border-2 border-white text-white hover:bg-white hover:text-primary">
+              <Button size="lg" className="bg-primary hover:bg-primary/90 text-white text-lg px-10 py-5 h-auto font-bold">
                 <Phone className="mr-3 h-6 w-6" />
                 Call (716) 578-1787
+              </Button>
+            </a>
+            <a href="https://calendly.com/camvest-auto-sales" target="_blank" rel="noopener noreferrer">
+              <Button size="lg" variant="outline" className="text-lg px-10 py-5 h-auto font-bold border-2 border-white text-white hover:bg-white hover:text-primary">
+                Schedule Test Drive
               </Button>
             </a>
           </div>
