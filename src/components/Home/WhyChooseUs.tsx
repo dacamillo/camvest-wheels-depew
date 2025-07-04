@@ -9,8 +9,8 @@ const WhyChooseUs = () => {
     },
     {
       icon: Users,
-      title: "15+ Years Local Experience", 
-      description: "Proudly serving the Depew and Buffalo communities with trusted automotive expertise."
+      title: "25 Years Local Experience", 
+      description: "Proudly serving the Depew and Buffalo communities with trusted automotive expertise and A+ BBB rating."
     },
     {
       icon: Phone,

@@ -45,14 +45,15 @@ const HeroSection = () => {
           <div className="flex items-center space-x-6 text-sm opacity-90">
             <div className="flex items-center space-x-1">
               <div className="flex">
-                {[...Array(5)].map((_, i) => (
+                {[...Array(4)].map((_, i) => (
                   <Star key={i} className="h-4 w-4 fill-yellow-400 text-yellow-400" />
                 ))}
+                <Star className="h-4 w-4 text-yellow-400" />
               </div>
-              <span className="ml-2">4.8/5 Rating</span>
+              <span className="ml-2">4.2/5 (55 Reviews)</span>
             </div>
-            <div>15+ Years in Business</div>
-            <div>500+ Happy Customers</div>
+            <div>25 Years in Business</div>
+            <div>A+ BBB Rating</div>
           </div>
         </div>
       </div>

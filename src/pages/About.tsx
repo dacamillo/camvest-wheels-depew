@@ -150,12 +150,12 @@ const About = () => {
               <div className="opacity-90">Happy Customers</div>
             </div>
             <div>
-              <div className="text-4xl font-bold mb-2">15+</div>
+              <div className="text-4xl font-bold mb-2">25</div>
               <div className="opacity-90">Years in Business</div>
             </div>
             <div>
-              <div className="text-4xl font-bold mb-2">4.8★</div>
-              <div className="opacity-90">Customer Rating</div>
+              <div className="text-4xl font-bold mb-2">4.2★</div>
+              <div className="opacity-90">Customer Rating (55 Reviews)</div>
             </div>
           </div>
           
