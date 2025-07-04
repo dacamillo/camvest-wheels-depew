@@ -107,8 +107,8 @@ const WhyChooseUs = () => {
                   <div className="mt-8 pt-6 border-t border-border bg-secondary/50 -mx-6 px-6 -mb-6 pb-6">
                     <p className="text-center text-foreground">
                       <span className="block text-sm text-muted-foreground mb-2">Ready to experience the difference?</span>
-                      <a href="tel:+17166831234" className="text-primary font-semibold hover:underline text-lg">
-                        Call (716) 683-1234
+                      <a href="tel:+17165781787" className="text-primary font-semibold hover:underline text-lg">
+                        Call (716) 578-1787
                       </a>
                     </p>
                   </div>

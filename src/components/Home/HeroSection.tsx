@@ -33,10 +33,10 @@ const HeroSection = () => {
                 View Our Inventory
               </Button>
             </Link>
-            <a href="tel:+17166831234">
+            <a href="tel:+17165781787">
               <Button size="lg" variant="outline" className="btn-automotive-outline text-lg px-8 py-4 border-white text-white hover:bg-white hover:text-primary">
                 <Phone className="mr-2 h-5 w-5" />
-                Call Now: (716) 683-1234
+                Call Now: (716) 578-1787
               </Button>
             </a>
           </div>

@@ -6,33 +6,33 @@ const FeaturedVehicles = () => {
   const featuredVehicles = [
     {
       id: 1,
-      year: 2020,
-      make: "Honda",
-      model: "Civic",
-      price: 18995,
-      mileage: 45000,
-      image: "https://images.unsplash.com/photo-1549399015-6d91d74c2ea4?w=400&h=300&fit=crop",
-      features: ["Excellent Condition", "One Owner", "Service Records"]
+      year: 2017,
+      make: "Jeep",
+      model: "Grand Cherokee Limited",
+      price: 12995,
+      mileage: 174356,
+      image: "https://cdn05.carsforsale.com/3810a5926a24d840bbf9873e2828fe6d/480x360/2017-jeep-grand-cherokee-limited-4x4-4dr-suv.jpg",
+      features: ["4x4", "Limited Trim", "Excellent Condition"]
     },
     {
       id: 2,
-      year: 2019,
-      make: "Toyota",
-      model: "Camry",
-      price: 21995,
-      mileage: 52000,
-      image: "https://images.unsplash.com/photo-1605559424843-9e4c228bf1c2?w=400&h=300&fit=crop",
-      features: ["Low Miles", "Clean CarFax", "Recently Serviced"]
+      year: 2014,
+      make: "Chevrolet",
+      model: "Impala LT",
+      price: 9499,
+      mileage: 127321,
+      image: "https://cdn05.carsforsale.com/7e916e015d29872c520adc3ed5dc709d/480x360/2014-chevrolet-impala-lt-4dr-sedan-w-2lt.jpg",
+      features: ["LT Package", "Well Maintained", "Great Value"]
     },
     {
       id: 3,
-      year: 2021,
+      year: 2014,
       make: "Ford",
-      model: "F-150",
-      price: 32995,
-      mileage: 38000,
-      image: "https://images.unsplash.com/photo-1593941707882-a5bac6861d75?w=400&h=300&fit=crop",
-      features: ["4WD", "Crew Cab", "Excellent Condition"]
+      model: "Expedition Limited",
+      price: 9999,
+      mileage: 161727,
+      image: "https://cdn05.carsforsale.com/00a282ebcad56a771474d84d2673d6414e/480x360/2014-ford-expedition-limited-4x4-4dr-suv.jpg",
+      features: ["4x4", "Limited Trim", "7-Passenger"]
     }
   ];
 

@@ -131,10 +131,10 @@ const Contact = () => {
                     <MapPin className="h-6 w-6 text-primary mt-1" />
                     <div>
                       <h3 className="font-semibold mb-1">Address</h3>
-                      <p className="text-muted-foreground">
-                        123 Transit Road<br />
-                        Depew, NY 14043
-                      </p>
+                    <p className="text-muted-foreground">
+                      5222 Transit Rd<br />
+                      Depew, NY 14043
+                    </p>
                     </div>
                   </div>
 
@@ -143,10 +143,10 @@ const Contact = () => {
                     <div>
                       <h3 className="font-semibold mb-1">Phone</h3>
                       <a 
-                        href="tel:+17166831234" 
+                        href="tel:+17165781787" 
                         className="text-primary hover:underline font-semibold"
                       >
-                        (716) 683-1234
+                        (716) 578-1787
                       </a>
                     </div>
                   </div>
@@ -195,10 +195,10 @@ const Contact = () => {
                 <p className="mb-6 opacity-90">
                   Speak directly with our sales team right now. We're here to help!
                 </p>
-                <a href="tel:+17166831234">
+                <a href="tel:+17165781787">
                   <Button size="lg" className="bg-white text-primary hover:bg-gray-100">
                     <Phone className="mr-2 h-5 w-5" />
-                    Call Now: (716) 683-1234
+                    Call Now: (716) 578-1787
                   </Button>
                 </a>
               </div>

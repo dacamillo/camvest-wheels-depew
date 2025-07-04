@@ -231,7 +231,7 @@ const Financing = () => {
             Our financing specialists are here to help find a solution that works for you.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a href="tel:+17166831234">
+            <a href="tel:+17165781787">
               <Button size="lg" className="bg-white text-primary hover:bg-gray-100">
                 <Phone className="mr-2 h-5 w-5" />
                 Call Our Finance Team

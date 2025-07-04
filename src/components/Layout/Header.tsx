@@ -47,11 +47,11 @@ const Header = () => {
           {/* Phone Number & CTA */}
           <div className="hidden md:flex items-center space-x-4">
             <a
-              href="tel:+17166831234"
+              href="tel:+17165781787"
               className="flex items-center space-x-2 text-foreground hover:text-primary transition-colors"
             >
               <Phone className="h-4 w-4" />
-              <span className="font-semibold">(716) 683-1234</span>
+              <span className="font-semibold">(716) 578-1787</span>
             </a>
             <Button className="btn-automotive">
               View Inventory
@@ -85,11 +85,11 @@ const Header = () => {
               ))}
               <div className="pt-4 border-t border-border">
                 <a
-                  href="tel:+17166831234"
+                  href="tel:+17165781787"
                   className="flex items-center space-x-2 text-foreground hover:text-primary transition-colors mb-4"
                 >
                   <Phone className="h-4 w-4" />
-                  <span className="font-semibold">(716) 683-1234</span>
+                  <span className="font-semibold">(716) 578-1787</span>
                 </a>
                 <Button className="btn-automotive w-full">
                   View Inventory
