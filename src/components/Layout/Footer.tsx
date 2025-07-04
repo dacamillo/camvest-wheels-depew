@@ -37,11 +37,6 @@ const Footer = () => {
                 </Link>
               </li>
               <li>
-                <Link to="/financing" className="hover:opacity-80 transition-opacity">
-                  Financing
-                </Link>
-              </li>
-              <li>
                 <Link to="/trade-in" className="hover:opacity-80 transition-opacity">
                   Trade-In Value
                 </Link>
@@ -56,25 +51,20 @@ const Footer = () => {
                   Contact Us
                 </Link>
               </li>
-              <li>
-                <a href="https://calendly.com/camvest-auto-sales" target="_blank" rel="noopener noreferrer" className="hover:opacity-80 transition-opacity">
-                  Schedule Test Drive
-                </a>
-              </li>
             </ul>
           </div>
 
-          {/* Business Hours */}
+          {/* Test Drive Hours */}
           <div>
-            <h4 className="text-lg font-semibold mb-4">Business Hours</h4>
+            <h4 className="text-lg font-semibold mb-4">Test Drive Hours</h4>
             <a href="https://calendly.com/camvest-auto-sales" target="_blank" rel="noopener noreferrer" className="block hover:opacity-80 transition-opacity">
-              <div className="space-y-1 text-sm opacity-90">
-                <div>Monday - Friday: 9:00 AM - 7:00 PM</div>
-                <div>Saturday: 9:00 AM - 6:00 PM</div>
-                <div>Sunday: 11:00 AM - 5:00 PM</div>
+              <div className="space-y-1 text-sm opacity-90 mb-3">
+                <div>Monday - Friday: 10:00 AM - 6:00 PM</div>
+                <div>Saturday: 10:00 AM - 4:00 PM</div>
+                <div>Sunday: Closed</div>
               </div>
-              <div className="mt-2 text-xs text-primary-foreground/80">
-                Click to schedule test drive →
+              <div className="bg-primary hover:bg-primary/90 text-white px-4 py-2 rounded text-sm font-semibold transition-colors">
+                Schedule Test Drive
               </div>
             </a>
           </div>
