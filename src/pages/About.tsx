@@ -81,9 +81,14 @@ const About = () => {
                     <CardTitle className="text-xl">{value.title}</CardTitle>
                   </CardHeader>
                   <CardContent>
-                    <p className="text-muted-foreground leading-relaxed">
+                    <p className="text-muted-foreground leading-relaxed mb-4">
                       {value.description}
                     </p>
+                    <Link to="/contact">
+                      <Button size="sm" className="btn-automotive">
+                        Learn More
+                      </Button>
+                    </Link>
                   </CardContent>
                 </Card>
               );
@@ -114,12 +119,12 @@ const About = () => {
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link to="/inventory">
-              <Button size="lg" className="bg-white text-primary hover:bg-gray-100">
+              <Button size="lg" className="btn-automotive">
                 View Our Inventory
               </Button>
             </Link>
             <Link to="/contact">
-              <Button size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-primary">
+              <Button size="lg" className="btn-automotive">
                 Visit Our Lot
               </Button>
             </Link>

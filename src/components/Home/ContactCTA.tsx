@@ -11,19 +11,19 @@ const ContactCTA = () => {
           Visit our lot today to see our full inventory, or give us a call to schedule a test drive.
         </p>
 
-        <div className="flex flex-col sm:flex-row gap-4 justify-center mb-8">
-          <a href="tel:+17165781787">
-            <Button size="lg" variant="outline" className="btn-automotive-outline border-white text-white hover:bg-white hover:text-primary">
-              <Phone className="mr-2 h-5 w-5" />
-              Call (716) 578-1787
-            </Button>
-          </a>
-          <a href="https://api.leadconnectorhq.com/widget/booking/PG4skS5X8wxVQjWKPBO7" target="_blank" rel="noopener noreferrer">
-            <Button size="lg" className="bg-white text-primary hover:bg-gray-100">
-              Schedule Test Drive
-            </Button>
-          </a>
-        </div>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center mb-8">
+            <a href="tel:+17165781787">
+              <Button size="lg" className="btn-automotive">
+                <Phone className="mr-2 h-5 w-5" />
+                Call (716) 578-1787
+              </Button>
+            </a>
+            <a href="https://api.leadconnectorhq.com/widget/booking/PG4skS5X8wxVQjWKPBO7" target="_blank" rel="noopener noreferrer">
+              <Button size="lg" className="btn-automotive">
+                Schedule Test Drive
+              </Button>
+            </a>
+          </div>
 
         <div className="flex flex-col sm:flex-row items-center justify-center gap-8 text-sm opacity-90">
           <div className="flex items-center space-x-2">
