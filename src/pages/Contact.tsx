@@ -106,7 +106,7 @@ const Contact = () => {
                         required
                         value={formData.message}
                         onChange={handleChange}
-                        placeholder="Tell us what you're looking for, questions about financing, or any other details..."
+                        placeholder="Tell us what you're looking for or any questions you have..."
                         rows={4}
                       />
                     </div>
@@ -155,11 +155,11 @@ const Contact = () => {
                     <Clock className="h-6 w-6 text-primary mt-1" />
                     <div>
                       <h3 className="font-semibold mb-1">Business Hours</h3>
-                      <div className="text-muted-foreground space-y-1">
-                        <div>Monday - Friday: 9:00 AM - 7:00 PM</div>
-                        <div>Saturday: 9:00 AM - 6:00 PM</div>
-                        <div>Sunday: 11:00 AM - 5:00 PM</div>
-                      </div>
+                        <div className="text-muted-foreground space-y-1">
+                          <div>Monday - Friday: 10:00 AM - 5:00 PM</div>
+                          <div>Saturday: 10:00 AM - 3:00 PM</div>
+                          <div>Sunday: Closed</div>
+                        </div>
                     </div>
                   </div>
                 </CardContent>

@@ -30,7 +30,7 @@ const HeroSection = () => {
           
           <p className="text-xl md:text-2xl mb-10 text-white/90 leading-relaxed max-w-2xl">
             Honest deals, reliable vehicles, and exceptional service. 
-            Find your perfect car today with financing options available for all credit situations.
+            Find your perfect car today at competitive prices.
           </p>
 
           <div className="flex flex-col lg:flex-row gap-4 mb-12">

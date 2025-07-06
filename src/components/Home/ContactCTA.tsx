@@ -8,8 +8,7 @@ const ContactCTA = () => {
       <div className="container mx-auto px-4 text-center">
         <h2 className="text-4xl font-bold mb-6">Ready to Find Your Perfect Car?</h2>
         <p className="text-xl mb-8 opacity-90 max-w-2xl mx-auto">
-          Visit our lot today to see our full inventory, or give us a call to discuss 
-          financing options and schedule a test drive.
+          Visit our lot today to see our full inventory, or give us a call to schedule a test drive.
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center mb-8">
@@ -31,7 +30,7 @@ const ContactCTA = () => {
             <MapPin className="h-4 w-4" />
             <span>123 Transit Road, Depew, NY 14043</span>
           </div>
-          <div>Mon-Fri: 9AM-7PM | Sat: 9AM-6PM | Sun: 11AM-5PM</div>
+          <div>Mon-Fri: 10AM-5PM | Sat: 10AM-3PM | Sun: Closed</div>
         </div>
       </div>
     </section>

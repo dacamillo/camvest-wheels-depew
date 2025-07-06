@@ -37,11 +37,6 @@ const Footer = () => {
                 </Link>
               </li>
               <li>
-                <Link to="/trade-in" className="hover:opacity-80 transition-opacity">
-                  Trade-In Value
-                </Link>
-              </li>
-              <li>
                 <Link to="/about" className="hover:opacity-80 transition-opacity">
                   About Us
                 </Link>
@@ -57,11 +52,11 @@ const Footer = () => {
           {/* Test Drive Hours */}
           <div>
             <h4 className="text-lg font-semibold mb-4">Test Drive Hours</h4>
-            <div className="space-y-1 text-sm opacity-90 mb-3">
-              <div>Monday - Friday: 10:00 AM - 6:00 PM</div>
-              <div>Saturday: 10:00 AM - 4:00 PM</div>
-              <div>Sunday: Closed</div>
-            </div>
+              <div className="space-y-1 text-sm opacity-90 mb-3">
+                <div>Monday - Friday: 10:00 AM - 5:00 PM</div>
+                <div>Saturday: 10:00 AM - 3:00 PM</div>
+                <div>Sunday: Closed</div>
+              </div>
             <div className="mt-4">
               <iframe 
                 src="https://api.leadconnectorhq.com/widget/booking/PG4skS5X8wxVQjWKPBO7" 

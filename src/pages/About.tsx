@@ -4,27 +4,6 @@ import { Link } from 'react-router-dom';
 import { Star, Users, Phone } from 'lucide-react';
 
 const About = () => {
-  const teamMembers = [
-    {
-      name: "Mike Camvest",
-      title: "Owner & General Manager", 
-      experience: "15+ years",
-      description: "Mike founded Camvest Inc Auto Sales with a mission to provide honest, transparent car buying experiences to the Depew community."
-    },
-    {
-      name: "Sarah Johnson",
-      title: "Sales Manager",
-      experience: "8 years",
-      description: "Sarah specializes in helping first-time buyers and families find the perfect vehicle that fits their needs and budget."
-    },
-    {
-      name: "Tom Rodriguez",
-      title: "Finance Specialist",
-      experience: "10 years", 
-      description: "Tom works with multiple lenders to secure the best financing options for our customers, regardless of credit situation."
-    }
-  ];
-
   const values = [
     {
       icon: Star,
@@ -113,32 +92,6 @@ const About = () => {
         </div>
       </section>
 
-      {/* Our Team */}
-      <section className="py-16 bg-background">
-        <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-bold mb-12 text-center">Meet Our Team</h2>
-          
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {teamMembers.map((member, index) => (
-              <Card key={index} className="automotive-card text-center">
-                <CardHeader>
-                  <div className="w-24 h-24 bg-secondary rounded-full mx-auto mb-4 flex items-center justify-center">
-                    <Users className="h-12 w-12 text-muted-foreground" />
-                  </div>
-                  <CardTitle className="text-xl">{member.name}</CardTitle>
-                  <p className="text-primary font-semibold">{member.title}</p>
-                  <p className="text-sm text-muted-foreground">{member.experience} experience</p>
-                </CardHeader>
-                <CardContent>
-                  <p className="text-muted-foreground leading-relaxed">
-                    {member.description}
-                  </p>
-                </CardContent>
-              </Card>
-            ))}
-          </div>
-        </div>
-      </section>
 
       {/* Why Choose Us Summary */}
       <section className="py-16 hero-gradient text-white">
