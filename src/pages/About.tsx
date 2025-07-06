@@ -144,12 +144,14 @@ const About = () => {
                       ))}
                     </div>
                     <div className="mt-8 pt-6 border-t border-border bg-secondary/50 -mx-6 px-6 -mb-6 pb-6">
-                      <p className="text-center text-foreground">
-                        <span className="block text-sm text-muted-foreground mb-2">Experience the Camvest difference</span>
-                        <a href="tel:+17165781787" className="text-primary font-semibold hover:underline text-lg">
-                          Call (716) 578-1787
+                      <div className="text-center">
+                        <p className="text-sm text-muted-foreground mb-4">Experience the Camvest difference</p>
+                        <a href="https://api.leadconnectorhq.com/widget/booking/PG4skS5X8wxVQjWKPBO7" target="_blank" rel="noopener noreferrer">
+                          <Button className="w-full">
+                            Schedule Test Drive
+                          </Button>
                         </a>
-                      </p>
+                      </div>
                     </div>
                   </DialogContent>
                 </Dialog>
