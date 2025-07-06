@@ -21,10 +21,12 @@ const Header = () => {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
-          <Link to="/" className="flex items-center space-x-2">
-            <div className="text-2xl font-bold text-primary">
-              Camvest Inc Auto Sales
-            </div>
+          <Link to="/" className="flex items-center">
+            <img 
+              src="/lovable-uploads/cf54b8b8-ec4f-4ab6-b9f8-fea1e77b623d.png" 
+              alt="Camvest Inc Auto Sales" 
+              className="h-16 md:h-20 w-auto"
+            />
           </Link>
 
           {/* Desktop Navigation */}
