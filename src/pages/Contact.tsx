@@ -1,32 +1,8 @@
 import { Button } from '@/components/ui/button';
-import { Input } from '@/components/ui/input';
-import { Textarea } from '@/components/ui/textarea';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { MapPin, Phone, Clock } from 'lucide-react';
-import { useState } from 'react';
 
 const Contact = () => {
-  const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    phone: '',
-    message: ''
-  });
-
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    // Handle form submission here
-    console.log('Form submitted:', formData);
-    alert('Thank you for your message! We will contact you soon.');
-    setFormData({ name: '', email: '', phone: '', message: '' });
-  };
-
-  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
-    setFormData({
-      ...formData,
-      [e.target.name]: e.target.value
-    });
-  };
 
   return (
     <div className="min-h-screen">
@@ -48,73 +24,31 @@ const Contact = () => {
             <div>
               <Card className="automotive-card">
                 <CardHeader>
-                  <CardTitle className="text-2xl">Send Us a Message</CardTitle>
+                  <CardTitle className="text-2xl">Get In Touch</CardTitle>
+                  <p className="text-muted-foreground">
+                    Fill out the form below and we'll get back to you within 24 hours.
+                  </p>
                 </CardHeader>
                 <CardContent>
-                  <form onSubmit={handleSubmit} className="space-y-6">
-                    <div>
-                      <label htmlFor="name" className="block text-sm font-medium mb-2">
-                        Full Name *
-                      </label>
-                      <Input
-                        id="name"
-                        name="name"
-                        type="text"
-                        required
-                        value={formData.name}
-                        onChange={handleChange}
-                        placeholder="Your full name"
-                      />
-                    </div>
-
-                    <div>
-                      <label htmlFor="email" className="block text-sm font-medium mb-2">
-                        Email Address *
-                      </label>
-                      <Input
-                        id="email"
-                        name="email"
-                        type="email"
-                        required
-                        value={formData.email}
-                        onChange={handleChange}
-                        placeholder="your.email@example.com"
-                      />
-                    </div>
-
-                    <div>
-                      <label htmlFor="phone" className="block text-sm font-medium mb-2">
-                        Phone Number
-                      </label>
-                      <Input
-                        id="phone"
-                        name="phone"
-                        type="tel"
-                        value={formData.phone}
-                        onChange={handleChange}
-                        placeholder="(716) 555-0123"
-                      />
-                    </div>
-
-                    <div>
-                      <label htmlFor="message" className="block text-sm font-medium mb-2">
-                        Message *
-                      </label>
-                      <Textarea
-                        id="message"
-                        name="message"
-                        required
-                        value={formData.message}
-                        onChange={handleChange}
-                        placeholder="Tell us what you're looking for or any questions you have..."
-                        rows={4}
-                      />
-                    </div>
-
-                    <Button type="submit" className="w-full btn-automotive">
-                      Send Message
-                    </Button>
-                  </form>
+                  <div style={{ minHeight: '552px' }}>
+                    <iframe
+                      src="https://api.leadconnectorhq.com/widget/form/YfLg1SPfsqYVTvbsvuO9"
+                      style={{ width: '100%', height: '552px', border: 'none', borderRadius: '4px' }}
+                      id="inline-YfLg1SPfsqYVTvbsvuO9" 
+                      data-layout="{'id':'INLINE'}"
+                      data-trigger-type="alwaysShow"
+                      data-trigger-value=""
+                      data-activation-type="alwaysActivated"
+                      data-activation-value=""
+                      data-deactivation-type="neverDeactivate"
+                      data-deactivation-value=""
+                      data-form-name="Basic Contact Information"
+                      data-height="552"
+                      data-layout-iframe-id="inline-YfLg1SPfsqYVTvbsvuO9"
+                      data-form-id="YfLg1SPfsqYVTvbsvuO9"
+                      title="Basic Contact Information"
+                    />
+                  </div>
                 </CardContent>
               </Card>
             </div>
@@ -206,6 +140,9 @@ const Contact = () => {
           </div>
         </div>
       </section>
+
+      {/* Load the form script */}
+      <script src="https://link.msgsndr.com/js/form_embed.js"></script>
     </div>
   );
 };

@@ -45,7 +45,7 @@ const HeroSection = () => {
                 Call (716) 578-1787
               </Button>
             </a>
-            <a href="https://calendly.com/camvest-auto-sales" target="_blank" rel="noopener noreferrer">
+            <a href="https://api.leadconnectorhq.com/widget/booking/PG4skS5X8wxVQjWKPBO7" target="_blank" rel="noopener noreferrer">
               <Button size="lg" className="bg-primary hover:bg-primary/90 text-white text-lg px-10 py-5 h-auto font-bold">
                 Schedule Test Drive
               </Button>

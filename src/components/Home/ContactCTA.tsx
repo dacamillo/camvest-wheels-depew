@@ -18,11 +18,11 @@ const ContactCTA = () => {
               Call (716) 578-1787
             </Button>
           </a>
-          <Link to="/contact">
+          <a href="https://api.leadconnectorhq.com/widget/booking/PG4skS5X8wxVQjWKPBO7" target="_blank" rel="noopener noreferrer">
             <Button size="lg" className="bg-white text-primary hover:bg-gray-100">
-              Visit Our Lot
+              Schedule Test Drive
             </Button>
-          </Link>
+          </a>
         </div>
 
         <div className="flex flex-col sm:flex-row items-center justify-center gap-8 text-sm opacity-90">
