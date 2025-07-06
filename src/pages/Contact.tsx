@@ -180,7 +180,7 @@ const Contact = () => {
                       <Button 
                         variant="outline" 
                         className="mt-4"
-                        onClick={() => window.open('https://maps.google.com/?q=Depew+NY+auto+sales', '_blank')}
+                        onClick={() => window.open('https://maps.google.com/?q=5222+Transit+Rd+Depew+NY+14043', '_blank')}
                       >
                         Open in Google Maps
                       </Button>

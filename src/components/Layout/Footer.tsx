@@ -57,16 +57,19 @@ const Footer = () => {
           {/* Test Drive Hours */}
           <div>
             <h4 className="text-lg font-semibold mb-4">Test Drive Hours</h4>
-            <a href="https://calendly.com/camvest-auto-sales" target="_blank" rel="noopener noreferrer" className="block hover:opacity-80 transition-opacity">
-              <div className="space-y-1 text-sm opacity-90 mb-3">
-                <div>Monday - Friday: 10:00 AM - 6:00 PM</div>
-                <div>Saturday: 10:00 AM - 4:00 PM</div>
-                <div>Sunday: Closed</div>
-              </div>
-              <div className="bg-primary hover:bg-primary/90 text-white px-4 py-2 rounded text-sm font-semibold transition-colors">
-                Schedule Test Drive
-              </div>
-            </a>
+            <div className="space-y-1 text-sm opacity-90 mb-3">
+              <div>Monday - Friday: 10:00 AM - 6:00 PM</div>
+              <div>Saturday: 10:00 AM - 4:00 PM</div>
+              <div>Sunday: Closed</div>
+            </div>
+            <div className="mt-4">
+              <iframe 
+                src="https://api.leadconnectorhq.com/widget/booking/PG4skS5X8wxVQjWKPBO7" 
+                style={{width: '100%', border: 'none', overflow: 'hidden', minHeight: '400px'}} 
+                scrolling="no" 
+                id="PG4skS5X8wxVQjWKPBO7_footer"
+              />
+            </div>
           </div>
         </div>
 
