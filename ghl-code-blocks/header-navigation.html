@@ -1,0 +1,47 @@
+<!-- Header Navigation for GoHighLevel -->
+<header style="background: white; border-bottom: 1px solid #e5e7eb; position: sticky; top: 0; z-index: 50;">
+  <div style="max-width: 1200px; margin: 0 auto; padding: 0 16px;">
+    <div style="display: flex; align-items: center; justify-content: space-between; height: 80px;">
+      
+      <!-- Logo -->
+      <div style="display: flex; align-items: center; gap: 8px;">
+        <div style="width: 40px; height: 40px; background: hsl(0, 85%, 55%); border-radius: 8px; display: flex; align-items: center; justify-content: center; color: white; font-weight: 700; font-size: 1.25rem;">
+          C
+        </div>
+        <span style="font-size: 1.5rem; font-weight: 700; color: #1f2937;">Camvest Inc Auto Sales</span>
+      </div>
+
+      <!-- Desktop Navigation -->
+      <nav style="display: flex; align-items: center; gap: 32px;">
+        <a href="#home" style="color: #1f2937; text-decoration: none; font-weight: 500; transition: color 0.2s;" onmouseover="this.style.color='hsl(0, 85%, 55%)'" onmouseout="this.style.color='#1f2937'">Home</a>
+        <a href="#about" style="color: #1f2937; text-decoration: none; font-weight: 500; transition: color 0.2s;" onmouseover="this.style.color='hsl(0, 85%, 55%)'" onmouseout="this.style.color='#1f2937'">About</a>
+        <a href="#inventory" style="color: #1f2937; text-decoration: none; font-weight: 500; transition: color 0.2s;" onmouseover="this.style.color='hsl(0, 85%, 55%)'" onmouseout="this.style.color='#1f2937'">Inventory</a>
+        <a href="#contact" style="color: #1f2937; text-decoration: none; font-weight: 500; transition: color 0.2s;" onmouseover="this.style.color='hsl(0, 85%, 55%)'" onmouseout="this.style.color='#1f2937'">Contact</a>
+        
+        <!-- CTA Button -->
+        <a href="tel:+17165781787" style="background: hsl(0, 85%, 55%); color: white; padding: 12px 24px; border-radius: 8px; text-decoration: none; font-weight: 600; transition: all 0.3s;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
+          📞 (716) 578-1787
+        </a>
+      </nav>
+
+      <!-- Mobile Menu Button (you'll need to implement mobile menu separately) -->
+      <button id="mobile-menu-btn" style="display: none; padding: 8px; border: none; background: none; cursor: pointer;">
+        <div style="width: 24px; height: 3px; background: #1f2937; margin: 5px 0; transition: 0.3s;"></div>
+        <div style="width: 24px; height: 3px; background: #1f2937; margin: 5px 0; transition: 0.3s;"></div>
+        <div style="width: 24px; height: 3px; background: #1f2937; margin: 5px 0; transition: 0.3s;"></div>
+      </button>
+    </div>
+  </div>
+</header>
+
+<style>
+  @media (max-width: 768px) {
+    nav {
+      display: none !important;
+    }
+    
+    #mobile-menu-btn {
+      display: block !important;
+    }
+  }
+</style>

@@ -1,0 +1,166 @@
+<!-- Inventory Section for GoHighLevel -->
+<section style="padding: 64px 0; background: #f9fafb;">
+  <div style="max-width: 1200px; margin: 0 auto; padding: 0 16px;">
+    
+    <!-- Header -->
+    <div style="text-align: center; margin-bottom: 48px;">
+      <h2 style="font-size: 2.5rem; font-weight: 700; margin-bottom: 16px; color: #1f2937;">Our Current Inventory</h2>
+      <p style="font-size: 1.25rem; color: #6b7280; max-width: 512px; margin: 0 auto;">
+        Quality used vehicles inspected and ready for their next owner. All cars come with our quality guarantee.
+      </p>
+    </div>
+
+    <!-- Filter Buttons -->
+    <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 16px; margin-bottom: 48px;">
+      <button class="filter-btn active" data-filter="all" style="padding: 12px 24px; border: 2px solid hsl(0, 85%, 55%); background: hsl(0, 85%, 55%); color: white; border-radius: 8px; font-weight: 600; cursor: pointer; transition: all 0.3s;">
+        All Vehicles
+      </button>
+      <button class="filter-btn" data-filter="sedan" style="padding: 12px 24px; border: 2px solid hsl(0, 85%, 55%); background: transparent; color: hsl(0, 85%, 55%); border-radius: 8px; font-weight: 600; cursor: pointer; transition: all 0.3s;">
+        Sedans
+      </button>
+      <button class="filter-btn" data-filter="suv" style="padding: 12px 24px; border: 2px solid hsl(0, 85%, 55%); background: transparent; color: hsl(0, 85%, 55%); border-radius: 8px; font-weight: 600; cursor: pointer; transition: all 0.3s;">
+        SUVs
+      </button>
+      <button class="filter-btn" data-filter="truck" style="padding: 12px 24px; border: 2px solid hsl(0, 85%, 55%); background: transparent; color: hsl(0, 85%, 55%); border-radius: 8px; font-weight: 600; cursor: pointer; transition: all 0.3s;">
+        Trucks
+      </button>
+    </div>
+
+    <!-- Vehicle Grid -->
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); gap: 32px;">
+      
+      <!-- Vehicle Card 1 -->
+      <div class="vehicle-card sedan" style="background: white; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1); transition: all 0.3s;" onmouseover="this.style.transform='translateY(-4px)'; this.style.boxShadow='0 10px 25px -5px rgba(0, 0, 0, 0.15)'" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 4px 6px -1px rgba(0, 0, 0, 0.1)'">
+        <img src="https://images.unsplash.com/photo-1550355291-bbee04a92027?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="2018 Honda Accord" style="width: 100%; height: 240px; object-fit: cover;">
+        <div style="padding: 24px;">
+          <div style="display: flex; justify-content: between; align-items: start; margin-bottom: 16px;">
+            <div>
+              <h3 style="font-size: 1.25rem; font-weight: 600; color: #1f2937; margin-bottom: 4px;">2018 Honda Accord</h3>
+              <p style="color: #6b7280; font-size: 0.875rem;">Sedan • 45,000 miles</p>
+            </div>
+            <span style="background: hsl(0, 85%, 55%); color: white; padding: 4px 12px; border-radius: 20px; font-size: 0.875rem; font-weight: 600;">$18,995</span>
+          </div>
+          <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 12px; margin-bottom: 20px; font-size: 0.875rem; color: #6b7280;">
+            <div>✓ Automatic</div>
+            <div>✓ Leather Interior</div>
+            <div>✓ Backup Camera</div>
+            <div>✓ Bluetooth</div>
+          </div>
+          <div style="display: flex; gap: 12px;">
+            <a href="https://api.leadconnectorhq.com/widget/booking/PG4skS5X8wxVQjWKPBO7" target="_blank" style="flex: 1; background: hsl(0, 85%, 55%); color: white; text-align: center; padding: 12px; border-radius: 8px; text-decoration: none; font-weight: 600; transition: all 0.3s;" onmouseover="this.style.background='hsl(0, 85%, 50%)'" onmouseout="this.style.background='hsl(0, 85%, 55%)'">
+              Test Drive
+            </a>
+            <a href="tel:+17165781787" style="flex: 1; border: 2px solid hsl(0, 85%, 55%); color: hsl(0, 85%, 55%); text-align: center; padding: 10px; border-radius: 8px; text-decoration: none; font-weight: 600; transition: all 0.3s;" onmouseover="this.style.background='hsl(0, 85%, 55%)'; this.style.color='white'" onmouseout="this.style.background='transparent'; this.style.color='hsl(0, 85%, 55%)'">
+              Call Now
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Vehicle Card 2 -->
+      <div class="vehicle-card suv" style="background: white; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1); transition: all 0.3s;" onmouseover="this.style.transform='translateY(-4px)'; this.style.boxShadow='0 10px 25px -5px rgba(0, 0, 0, 0.15)'" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 4px 6px -1px rgba(0, 0, 0, 0.1)'">
+        <img src="https://images.unsplash.com/photo-1606664515524-ed2f786a0bd6?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="2019 Toyota RAV4" style="width: 100%; height: 240px; object-fit: cover;">
+        <div style="padding: 24px;">
+          <div style="display: flex; justify-content: between; align-items: start; margin-bottom: 16px;">
+            <div>
+              <h3 style="font-size: 1.25rem; font-weight: 600; color: #1f2937; margin-bottom: 4px;">2019 Toyota RAV4</h3>
+              <p style="color: #6b7280; font-size: 0.875rem;">SUV • 32,000 miles</p>
+            </div>
+            <span style="background: hsl(0, 85%, 55%); color: white; padding: 4px 12px; border-radius: 20px; font-size: 0.875rem; font-weight: 600;">$24,995</span>
+          </div>
+          <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 12px; margin-bottom: 20px; font-size: 0.875rem; color: #6b7280;">
+            <div>✓ AWD</div>
+            <div>✓ Safety Sense 2.0</div>
+            <div>✓ Apple CarPlay</div>
+            <div>✓ Heated Seats</div>
+          </div>
+          <div style="display: flex; gap: 12px;">
+            <a href="https://api.leadconnectorhq.com/widget/booking/PG4skS5X8wxVQjWKPBO7" target="_blank" style="flex: 1; background: hsl(0, 85%, 55%); color: white; text-align: center; padding: 12px; border-radius: 8px; text-decoration: none; font-weight: 600; transition: all 0.3s;" onmouseover="this.style.background='hsl(0, 85%, 50%)'" onmouseout="this.style.background='hsl(0, 85%, 55%)'">
+              Test Drive
+            </a>
+            <a href="tel:+17165781787" style="flex: 1; border: 2px solid hsl(0, 85%, 55%); color: hsl(0, 85%, 55%); text-align: center; padding: 10px; border-radius: 8px; text-decoration: none; font-weight: 600; transition: all 0.3s;" onmouseover="this.style.background='hsl(0, 85%, 55%)'; this.style.color='white'" onmouseout="this.style.background='transparent'; this.style.color='hsl(0, 85%, 55%)'">
+              Call Now
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Vehicle Card 3 -->
+      <div class="vehicle-card truck" style="background: white; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1); transition: all 0.3s;" onmouseover="this.style.transform='translateY(-4px)'; this.style.boxShadow='0 10px 25px -5px rgba(0, 0, 0, 0.15)'" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 4px 6px -1px rgba(0, 0, 0, 0.1)'">
+        <img src="https://images.unsplash.com/photo-1544636331-e26879cd4d9b?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="2017 Ford F-150" style="width: 100%; height: 240px; object-fit: cover;">
+        <div style="padding: 24px;">
+          <div style="display: flex; justify-content: between; align-items: start; margin-bottom: 16px;">
+            <div>
+              <h3 style="font-size: 1.25rem; font-weight: 600; color: #1f2937; margin-bottom: 4px;">2017 Ford F-150</h3>
+              <p style="color: #6b7280; font-size: 0.875rem;">Truck • 58,000 miles</p>
+            </div>
+            <span style="background: hsl(0, 85%, 55%); color: white; padding: 4px 12px; border-radius: 20px; font-size: 0.875rem; font-weight: 600;">$22,995</span>
+          </div>
+          <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 12px; margin-bottom: 20px; font-size: 0.875rem; color: #6b7280;">
+            <div>✓ 4WD</div>
+            <div>✓ Tow Package</div>
+            <div>✓ Crew Cab</div>
+            <div>✓ Sync 3 System</div>
+          </div>
+          <div style="display: flex; gap: 12px;">
+            <a href="https://api.leadconnectorhq.com/widget/booking/PG4skS5X8wxVQjWKPBO7" target="_blank" style="flex: 1; background: hsl(0, 85%, 55%); color: white; text-align: center; padding: 12px; border-radius: 8px; text-decoration: none; font-weight: 600; transition: all 0.3s;" onmouseover="this.style.background='hsl(0, 85%, 50%)'" onmouseout="this.style.background='hsl(0, 85%, 55%)'">
+              Test Drive
+            </a>
+            <a href="tel:+17165781787" style="flex: 1; border: 2px solid hsl(0, 85%, 55%); color: hsl(0, 85%, 55%); text-align: center; padding: 10px; border-radius: 8px; text-decoration: none; font-weight: 600; transition: all 0.3s;" onmouseover="this.style.background='hsl(0, 85%, 55%)'; this.style.color='white'" onmouseout="this.style.background='transparent'; this.style.color='hsl(0, 85%, 55%)'">
+              Call Now
+            </a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Load More Button -->
+    <div style="text-align: center; margin-top: 48px;">
+      <a href="#contact" style="display: inline-flex; align-items: center; background: hsl(0, 85%, 55%); color: white; font-size: 1.125rem; padding: 16px 32px; font-weight: 700; text-decoration: none; border-radius: 8px; box-shadow: 0 4px 14px -2px rgba(220, 38, 38, 0.3); transition: all 0.3s;" onmouseover="this.style.transform='scale(1.05)'; this.style.boxShadow='0 6px 20px -4px rgba(220, 38, 38, 0.4)'" onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='0 4px 14px -2px rgba(220, 38, 38, 0.3)'">
+        See More Vehicles
+      </a>
+    </div>
+  </div>
+</section>
+
+<script>
+// Filter functionality
+document.querySelectorAll('.filter-btn').forEach(btn => {
+  btn.addEventListener('click', function() {
+    // Remove active class from all buttons
+    document.querySelectorAll('.filter-btn').forEach(b => {
+      b.classList.remove('active');
+      b.style.background = 'transparent';
+      b.style.color = 'hsl(0, 85%, 55%)';
+    });
+    
+    // Add active class to clicked button
+    this.classList.add('active');
+    this.style.background = 'hsl(0, 85%, 55%)';
+    this.style.color = 'white';
+    
+    // Filter vehicles
+    const filter = this.dataset.filter;
+    document.querySelectorAll('.vehicle-card').forEach(card => {
+      if (filter === 'all' || card.classList.contains(filter)) {
+        card.style.display = 'block';
+      } else {
+        card.style.display = 'none';
+      }
+    });
+  });
+});
+</script>
+
+<style>
+  @media (max-width: 768px) {
+    .vehicle-grid {
+      grid-template-columns: 1fr !important;
+    }
+    
+    .filter-buttons {
+      flex-direction: column !important;
+    }
+  }
+</style>
